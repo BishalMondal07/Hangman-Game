@@ -10,11 +10,11 @@ This code is a simple implementation of the classic game of Hangman in Python. T
 
 4. If the letter is in the word, the game will show the letter in its correct position(s).
 
-5.If the letter is not in the word, the game will display a part of the hangman.
+5. If the letter is not in the word, the game will display a part of the hangman.
 
-6.The player has to guess the word before the hangman is fully displayed.
+6. The player has to guess the word before the hangman is fully displayed.
 
-7.If the player guesses the word correctly within 10 attempts, they win the game. If not, they lose.
+7. If the player guesses the word correctly within 10 attempts, they win the game. If not, they lose.
 
 # Code
 The code is written in Python and uses the random library for handling events. It defines a function hangman() which contains the game logic. It selects a random word from a list of words, and then uses a loop to prompt the player for input and check if the input is in the word or not. It also displays the hangman figure based on the number of incorrect attempts.
